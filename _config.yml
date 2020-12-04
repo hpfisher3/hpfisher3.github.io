@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "I am a research technologist in the Napadow Lab at the Martinos Center for Biomedical Imaging studying pain with neuroimaging"
   location         : "Boston, MA"
-  employer         :
+  employer         : "Massachusetts General Hospital, Department of Radiology
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Harrison+Fisher"
   googlescholar    : "https://scholar.google.com/citations?user=jkALczsAAAAJ&hl=en&authuser=1&oi=ao"
   email            :
@@ -250,7 +250,7 @@ defaults:
   # _conferences
   - scope:
       path: ""
-      type: conferences
+      type: conference
     values:
       layout: conferences
       author_profile: true
