@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Conferences"
+permalink: /conferences/
+author_profile: true
+---
+
+{% if site.conferencemap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/conferencemap.html">See a map of all the conferences I have attended!</a></p>
+
+{% endif %}
+
+{% for post in site.conferences reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
